@@ -45,5 +45,9 @@ To understand and implement various time series forecasting methods and analyze 
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure:
+- **Basic Linear and exponential smoothing models are in Basic_time_series_analysis.ipynb**
+- **Analysis of error present in Analysis_the_model_errors.ipynb**
+- **Average model and its code in Average_model_and_table.ipynb**
+
 
