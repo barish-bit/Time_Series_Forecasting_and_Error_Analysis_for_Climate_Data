@@ -1,0 +1,63 @@
+
+---
+
+## 📊 Key Findings
+
+| Metric                      | Linear Model | Exp. Smoothing | Average Model |
+|----------------------------|--------------|----------------|----------------|
+| MSE                        | 6.2576       | 5.7890         | **5.3177**     |
+| MAE                        | 1.9396       | 1.8233         | **1.7888**     |
+| Correlation Skill Score    | 0.8637       | 0.8734         | **0.8809**     |
+| Heidke Skill Score         | 0.5841       | **0.6198**     | 0.6182         |
+
+- The **average model consistently performs better** across most metrics.
+- Averaging reduces the influence of poor predictions from either model.
+
+---
+
+## 📌 Methodology
+
+- Data from the Pune-Nagpur temperature center was used.
+- Time series was split into training and testing (last 1000 points for testing).
+- Predictions made using each model and then averaged.
+- Extensive error metrics were computed and visualized.
+- Multiple approaches were explored to understand why the average model performs best.
+
+---
+
+## 🔍 Observations
+
+- **Complementary performance** of models helps the average model outperform.
+- High temperature variability increases model errors.
+- Ensemble model stabilizes predictions by reducing peaks in errors.
+
+---
+
+## 📚 References
+
+1. Storch, H. von, & Zwiers, F. W. (2003). *Statistical Analysis in Climate Research*. Cambridge University Press.
+2. Hyndman, R.J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice*, 3rd ed. OTexts.
+3. Murphy, A. H., Brown, B. G., & Chen, Y-S. (1989). *Diagnostic Verification of Temperature Forecasts*. AMS.
+
+---
+
+## 🧑‍💻 Author
+
+**Barish Sarkhel**  
+Reg. No: 20201242  
+7th Semester (August 2023)  
+Course Code: DS4313  
+Supervisor: Dr. Joy Merwin Monteiro
+
+---
+
+## 📎 License
+
+This project is part of academic coursework and is provided for educational purposes.
+
+---
+
+## 📄 Report
+
+📥 A full project report with methodology, visuals, and results is available [here](./report/Barish%20Sarkhel%20Project%20Report.pdf).
+
